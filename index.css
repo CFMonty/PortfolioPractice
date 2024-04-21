@@ -1,0 +1,34 @@
+header {
+    background-color: teal;
+    height: auto;
+}
+.main {
+    background-color: lightblue;
+    height: 300px;
+}
+footer {
+    background-color: pink;
+    height: 300px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topNavBar {
+    overflow: hidden;
+    color: whitesmoke;
+    font-size: 30px;
+}
+.topNavBarLi {
+    display: inline-block;
+    padding: 14px 16px;
+    
+}
+.topNavBarLi a {
+    text-decoration: none;
+    color: black;
+}
+.topNavBar Li a:hover{
+    color: grey
+}
