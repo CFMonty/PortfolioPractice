@@ -69,7 +69,9 @@ nav {
     float: right;
 }
 .dropdown li {
-    margin-top: 5px;
+    margin-top: 7px;
+    text-align: center;
+ 
 }
 .dropdown li:hover{
     color: #FF5733;
@@ -77,7 +79,8 @@ nav {
 
 footer {
     font-family: Arial, Helvetica, sans-serif;
-    height: auto;
+    height: 200px;
+    margin-left: 590px;
     text-align: center;
 }
 .hiking {
@@ -89,8 +92,8 @@ footer {
 }
 
 .bottomNavBar {
-    overflow: hidden;
-    color: whitesmoke;
+    /* overflow: hidden; */
+    color: white;
     padding-top: 20px;
     font-size: 14px;
 }
